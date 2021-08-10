@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="testcases.Logintestcase">
+        <methods>
+          <include name="setupapplication"/>
+        </methods>
+      </class> <!-- testcases.Logintestcase -->
+      <class name="testcases.Admintestcases">
+        <methods>
+          <include name="login"/>
+          <include name="adduser"/>
+        </methods>
+      </class> <!-- testcases.Admintestcases -->
+      <class name="testcases.Homepagetestcase">
+        <methods>
+          <include name="timepicker"/>
+          <include name="logout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcases.Homepagetestcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
